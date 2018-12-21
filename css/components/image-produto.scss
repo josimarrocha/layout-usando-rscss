@@ -1,0 +1,19 @@
+.image-produto{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg, rgba(212, 62, 78, 0.6) 0%, rgba(212, 62, 78, 0.570166) 49.72%, rgba(196, 196, 196, 0.06) 100%);
+    position: relative;
+    left: 50%;
+    margin-top: 2.35em;
+    margin-bottom: 2.95em;
+    transform: translateX(-50%);
+    border-radius: 50%;
+
+}
+.image-produto > .image{
+    width: 120%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

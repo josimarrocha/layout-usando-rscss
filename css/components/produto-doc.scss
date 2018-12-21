@@ -1,0 +1,32 @@
+.produto-documentacao > .title{
+    color: $colorwhite;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.produto-documentacao > .especificacao{
+    padding: 0px 10px;
+    > .item{
+        background: rgba(255, 255, 255, 0.1);
+        margin: 20px 0;
+        display: flex;
+        padding: 10px;
+        border-radius: 3px;
+
+        > img{
+            border-radius: 3px;
+            border: 8px solid $colorwhite;
+        }
+        
+        > .itemlink{
+        color: $colorwhite;
+        margin-left: 0.8em;
+        font-size: 0.823em;
+
+            > .itemtitle{
+                text-transform: uppercase;
+                padding-bottom: 5px;
+
+            }
+    }
+    }
+}
