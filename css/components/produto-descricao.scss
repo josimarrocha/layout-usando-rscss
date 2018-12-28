@@ -1,0 +1,39 @@
+.conteudo{
+    padding: 20px 20px 60px 20px;
+    @media (min-width:800px) {
+        padding-left: 5%;
+    }
+    @media (min-width:950px) {
+        padding-top: 140px;
+        padding-left: 10%;
+        padding-right: 5px;
+    }
+}
+.conteudo > .titulo{
+    font-size: 1.7em;
+    padding-bottom: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-transform: uppercase;
+    @media (min-width:800px) {
+        width: 80%;
+    }
+}
+.conteudo > .descricao{
+    line-height: 1.4;
+    padding-bottom: 40px;
+    letter-spacing: 0.04em;
+    width: 100%;
+    font-size: 0.9em;
+    @media (min-width:950px) {
+        width: 85%;
+    }
+}
+.conteudo > .btn-action{
+    color: black;
+    border: 2px solid #2c2c2c;
+    padding: 14px 34px;
+    margin-right: 10px;
+    border-radius: 3px;
+}

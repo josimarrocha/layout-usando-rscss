@@ -3,4 +3,9 @@
     background: #2C2C2D;
     height: 100vh;
     overflow-x: hidden;
+    @media (min-width:950px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }

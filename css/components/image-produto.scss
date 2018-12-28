@@ -8,7 +8,18 @@
     margin-bottom: 2.95em;
     transform: translateX(-50%);
     border-radius: 50%;
-
+    @media (min-width: 710px) {
+       width: 400px;
+       height: 400px;
+       margin: 20px;
+        
+    } 
+    @media (min-width: 950px) {
+       width: 400px;
+       height: 400px;
+       margin: 40px 0 20px 0;
+        
+    } 
 }
 .image-produto > .image{
     width: 120%;

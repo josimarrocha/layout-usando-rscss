@@ -1,0 +1,10 @@
+.produto-descricao{
+    position: relative;
+    background: $colorwhite;
+    @media (min-width:950px) {
+        flex: 1;
+        position: relative;
+        
+        padding: 50px;
+    }
+}

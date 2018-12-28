@@ -1,3 +1,13 @@
+.main-menu{
+    @media (min-width:950px) {
+        line-height: 80px;
+        padding-right: 10px;
+        background: yellow;
+        max-width: 450px;
+
+        
+    }
+}
 .main-menu > .items{   
     position: absolute;
     background: rgba(51, 51, 51, 0.989);
@@ -11,18 +21,32 @@
     padding: 80px 0 0px 0;
     font-size: 1.176em;
     z-index: 2;
+    @media (min-width:950px) {
+        transform: translateX(0%);
+        position: relative;
+        display: flex;
+        padding: 0;
+        font-size: 1em;
+        justify-content: flex-end;
+        background: none;
+    }
 }
 .main-menu > .menu{
     width: 32px;
     height: 32px;
     text-indent: -9999px;
-    background: url('../../../img/menu.svg') no-repeat
+    background: url('../../../img/menu.svg') no-repeat center
     ;
-    display: block;
+    display: inline-block;
     background-size: cover;
     color: white;
     position: relative;
-    left: 70%;
+    flex: 0;
+    left: 82%;
+    @media (min-width:950px) {
+        background: none;
+        position: absolute;
+    }
 }
 .items.-isActive{
     transform: translateX(0%);
@@ -30,8 +54,18 @@
 .main-menu > .items > .item{
     padding: 20px;
     border: solid 1px #933;
+    @media (min-width:950px) {
+        border: none;
+        font-size: 0.7em;
+        padding: 5px;
+    }
     & .action{
         color: $colorwhite;
+        @media (min-width:950px) {
+            color: black;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
     }
 }
 .main-menu > .items{
@@ -45,6 +79,9 @@
         border-radius: 50%;
         right: 5%;
         top: 20px;
+        @media (min-width:950px) {
+            display: none;   
+        }
 
         &::before{
             content: '';
